@@ -1,0 +1,30 @@
+---
+title: "01. Introduction"
+description: "An introduction to stochastic processes."
+date: "2026-07-26"
+order: 1
+sidebar: junior-summer
+categories:
+  - Stochastic Processes
+draft: false
+---
+
+## Main Question
+
+What is a stochastic process?
+
+## Definition
+
+Write the main definition here.
+
+## Intuition
+
+Write your intuitive explanation here.
+
+## Example
+
+Write an example here.
+
+## What I Learned
+
+Write the key idea that became clearer.

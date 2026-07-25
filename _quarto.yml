@@ -6,12 +6,34 @@ website:
   site-url: https://mkw0rld.github.io # you must change this appropriately for RSS feeds to work properly
   title: "Mk World"
   navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: junior-summer/index.qmd
+        text: Junior Summer
+
     right:
       - about.qmd
       - icon: github
         href: https://github.com/
       - icon: bluesky
         href: https://github.com/mkw0rld
+ 
+  sidebar:
+    - id: junior-summer
+      title: "Junior Summer"
+      style: floating
+      collapse-level: 3
+      contents:
+        - href: junior-summer/index.qmd
+          text: Overview
+
+        - section: "Lab Internship"
+          href: junior-summer/lab-internship/index.qmd
+          contents:
+            - section: "Essentials of Stochastic Processes"
+              href: junior-summer/lab-internship/essentials-of-stochastic-processes.qmd
+              contents: posts/junior-summer/lab-internship/essentials-of-stochastic-processes/*/index.qmd
 format:
   html:
     theme:
