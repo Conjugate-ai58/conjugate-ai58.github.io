@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  description: "Life, Math, and etc."
+  site-url: https://mkw0rld.github.io # you must change this appropriately for RSS feeds to work properly
+  title: "Mk World"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: bluesky
+        href: https://github.com/mkw0rld
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+
+
+
